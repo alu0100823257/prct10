@@ -1,0 +1,63 @@
+
+\documentclass[12pt,a4paper]{article}
+\usepackage{latexsym,amsfonts,amssymb,amstext,amsthm,float,amsmath}
+\usepackage[spanish]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[dvips]{epsfig}
+\usepackage{doc}
+\begin{document}
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.1]{src/imagen1.eps}
+\end{center}
+\end{figure}
+\author{Shaila Verona Rodriguez}
+\title{aproximacion de el numero $\pi$}
+\date{Viernes 11 de Abril del 2014}
+\maketitle 
+\tableofcontens
+\begin{abstract}
+El objetivo de este informe es tratar de explicar el numero Pi
+\end{abstract}
+\section{definicion}
+π (pi) es la relación entre la longitud de una circunferencia y su diámetro, en geometría euclidiana. Es un número irracional y una de las constantes matemáticas más importantes. Se emplea frecuentemente en matemáticas, física e ingeniería. El valor numérico de π, truncado a sus primeras cifras, es el siguiente:
+
+    \pi \approx 3,14159265358979323846 \; \dots 
+
+El valor de π se ha obtenido con diversas aproximaciones a lo largo de la historia, siendo una de las constantes matemáticas que más aparece en las ecuaciones de la física, junto con el número e. Cabe destacar que el cociente entre la longitud de cualquier circunferencia y la de su diámetro no es constante en geometrías no euclídeas.
+También como hemos visto en prácticas anteriores, el numero pi se puede calcular mediante integración:
+
+$$\int_{0}^{1} \! \frac{4}{1+x^2}\, dx = 4(atan(1) -atan(0)) = \pi $$
+\section{Usos del numero \pi en las matemáticas}
+El numero \pi es usado en varios campos de las matemáticas como por ejemplo:
+\begin{enumerate}
+\item
+En geometría
+\item
+En calculo
+\item 
+En probabilidad
+\item
+En analisis matemático
+\end {enumerate}
+\section{Mayor numero de decimales}
+En la época actual el mayor numero de decimales obtenido se llevó a cabo por Shigeru Kondo, obteniendo 10.000.000.000.000 cifras.
+\begin{table}{}
+\begin{tabular}{lrcl}
+Año & Nombre & Ordenador & Número de decimales \\ \hline
+1949 & Reitwiesner & ENIAC & 2.037 \\ \hline
+1959 & Guilloud & IBM 704 & 16.167 \\ \hline
+1986 & Bailey & CRAY-2 & 29.360.111 \\ \hline
+2011 & Kondo & & 10.000.000.000.000 \\ \hline
+\end{tabular}
+\end {table}
+section{Bibliografía}
+\begin{itemize}
+  \bibitem
+  es.wikipedia.org/wiki/Número\_\pi \hline
+  \bibitem
+     www.juegosdelogica.com/numero\_\pi.htm
+\end{itemize}
+\end{document}
+
+
